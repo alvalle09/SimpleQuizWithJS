@@ -1,6 +1,58 @@
 body {
-    background: #E27209;
-    color: white;
+    background: #721330;
+    color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+}
+
+#container {
+    width: 60%;
+    background: #4C0017;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+}
+
+header {
+    text-align: center;
+    border-bottom: #fff dashed 1px;
+
+}
+ header h1 {
+     padding: 0;
+     margin: 0;
+ }
+ 
+ header h3 {
+     margin-top: 5px;
+     padding: 0;
+     color: rgba(243, 133, 8, 0.67);
+ }
+
+ section {
+     min-height: 400px;
+ }
+
+ footer {
+     text-align: center;
+ }
+
+ input[type="submit"] {
+    background: #721330;
+    border: 0;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer; 
+ }
+
+#results h3 {
+    background: #721330;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#results span {
+    color: #000000;
+    font-weight: bold;
+
 }
